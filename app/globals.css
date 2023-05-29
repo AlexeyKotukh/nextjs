@@ -6,8 +6,9 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 243, 225, 216;
+  --background-end-rgb: 204, 171, 155;
+
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -27,7 +28,7 @@
   --tile-border: conic-gradient(
     #00000080,
     #00000040,
-    #00000030,
+    #d6060630,
     #00000020,
     #00000010,
     #00000010,
@@ -51,7 +52,7 @@
       to bottom right,
       rgba(1, 65, 255, 0),
       rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
+      rgba(0, 64, 255, 0.3)
     );
 
     --tile-start-rgb: 2, 13, 46;
@@ -86,14 +87,8 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  background-color: #004953;
+ }
 
 a {
   color: inherit;
